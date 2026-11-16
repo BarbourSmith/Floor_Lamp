@@ -1270,7 +1270,7 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
-              "selectedColor": "Glass"
+              "selectedColor": "Sand"
             }
           ],
           "allConnectors": [
@@ -1387,7 +1387,7 @@
           "ioValues": [
             {
               "name": "foot_radius",
-              "ioValue": 272
+              "ioValue": 267
             },
             {
               "name": "top_height",
@@ -1453,7 +1453,7 @@
                 },
                 {
                   "name": "length",
-                  "ioValue": 1269.8523536222626,
+                  "ioValue": 1268.8774566521386,
                   "currentEquation": "sqrt((foot_radius - 22)^2 + top_height^2)"
                 }
               ],
@@ -1519,7 +1519,7 @@
                     },
                     {
                       "name": "height",
-                      "ioValue": 1309.8523536222626,
+                      "ioValue": 1308.8774566521386,
                       "currentEquation": "length + 40"
                     }
                   ]
@@ -1584,7 +1584,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": -11.354176310409951,
+                  "ioValue": -11.132820891274136,
                   "currentEquation": "-atan((foot_radius - 22) / top_height) * 180 / pi"
                 },
                 {
@@ -1605,7 +1605,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 272,
+                  "ioValue": 267,
                   "currentEquation": "foot_radius"
                 },
                 {
