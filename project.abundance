@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Molecule",
-      "x": 0.6052,
-      "y": 0.3014,
+      "x": 0.6032,
+      "y": 0.2845,
       "uniqueID": "id-134",
       "name": "Lamp Shade",
       "ioValues": [
@@ -38,8 +38,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.5,
-          "y": 0.6,
+          "x": 0.5046,
+          "y": 0.5859,
           "uniqueID": "id-138",
           "name": "Shade Wire Frame",
           "ioValues": [
