@@ -1,13 +1,161 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "Floor_Lamp",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Floor_Lamp",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Molecule",
+      "x": 0.6,
+      "y": 0.3,
+      "uniqueID": "id-134",
+      "name": "Lamp Shade",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-136",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.5,
+          "y": 0.6,
+          "uniqueID": "id-138",
+          "name": "Shade Wire Frame",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-140",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.25,
+              "y": 0.3,
+              "uniqueID": "id-142",
+              "name": "Shade Ring",
+              "ioValues": [
+                {
+                  "name": "ring_diameter",
+                  "ioValue": 394.3
+                },
+                {
+                  "name": "wire_diameter",
+                  "ioValue": 3.5
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-144",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.1538,
+                  "uniqueID": "id-146",
+                  "name": "ring_diameter",
+                  "type": "number",
+                  "options": []
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.2462,
+                  "uniqueID": "id-149",
+                  "name": "wire_diameter",
+                  "type": "number",
+                  "options": []
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.4,
+                  "y": 0.45,
+                  "uniqueID": "id-152",
+                  "ioValues": [
+                    {
+                      "name": "ringDiameter",
+                      "ioValue": 394.3
+                    },
+                    {
+                      "name": "wireDiameter",
+                      "ioValue": 3.5
+                    }
+                  ],
+                  "interpreterVersion": 1,
+                  "code": "/**\n * Shade Ring: round steel wire bent into a closed ring (a torus).\n * ringDiameter is measured to the wire's centerline; the ring lies in the XY\n * plane centered on the origin.\n */\nfunction run(ringDiameter: number = 394.3, wireDiameter: number = 3.5): Assembly {\n  // Circle of the wire's cross-section, drawn at the ring radius in the XZ plane,\n  // revolved a full turn about Z.\n  const ring = replicad\n    .drawCircle(wireDiameter / 2)\n    .translate(ringDiameter / 2, 0)\n    .sketchOnPlane(\"XZ\")\n    .revolve();\n  return new Assembly({ geometry: ring, color: \"#3A3A3A\", tags: [\"shade ring\"] });\n}",
+                  "compiledCode": "\"use strict\";\n/**\n * Shade Ring: round steel wire bent into a closed ring (a torus).\n * ringDiameter is measured to the wire's centerline; the ring lies in the XY\n * plane centered on the origin.\n */\nfunction run(ringDiameter = 394.3, wireDiameter = 3.5) {\n    // Circle of the wire's cross-section, drawn at the ring radius in the XZ plane,\n    // revolved a full turn about Z.\n    const ring = replicad\n        .drawCircle(wireDiameter / 2)\n        .translate(ringDiameter / 2, 0)\n        .sketchOnPlane(\"XZ\")\n        .revolve();\n    return new Assembly({ geometry: ring, color: \"#3A3A3A\", tags: [\"shade ring\"] });\n}\n"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "ringDiameter",
+                  "ap1ID": "id-146",
+                  "ap2ID": "id-152"
+                },
+                {
+                  "ap2Name": "wireDiameter",
+                  "ap1ID": "id-149",
+                  "ap2ID": "id-152"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-152",
+                  "ap2ID": "id-144"
+                }
+              ],
+              "fileTypeVersion": 1
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
