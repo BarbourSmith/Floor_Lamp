@@ -1851,8 +1851,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.9398,
-              "y": 0.8676,
+              "x": 0.8393,
+              "y": 0.7803,
               "uniqueID": "id-838",
               "name": "selected.Fillet",
               "ioValues": [
@@ -1906,7 +1906,14 @@
                   "name": "shape",
                   "type": "edgeselect",
                   "options": [],
-                  "selectedEdgeData": {}
+                  "selectedEdgeData": {
+                    "0": [
+                      14,
+                      16,
+                      12,
+                      10
+                    ]
+                  }
                 },
                 {
                   "atomType": "Input",
@@ -2147,6 +2154,40 @@
               "fileTypeVersion": 1,
               "scaleToProjectUnits": true,
               "lastReloadedFromGithubAt": 1794871205762
+            },
+            {
+              "atomType": "Export",
+              "x": 0.9153,
+              "y": 0.7606,
+              "uniqueID": "id-867",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "File Type",
+                  "ioValue": "STEP",
+                  "currentEquation": "STEP"
+                },
+                {
+                  "name": "Resolution (dpi)",
+                  "ioValue": 96
+                },
+                {
+                  "name": "STL Tolerance",
+                  "ioValue": 0.05
+                },
+                {
+                  "name": "Part Name",
+                  "ioValue": "Brace",
+                  "currentEquation": "Brace"
+                }
+              ],
+              "type": null,
+              "resolution": 96,
+              "importIndex": 0,
+              "partName": "Brace"
             }
           ],
           "allConnectors": [
@@ -2209,6 +2250,16 @@
               "ap2Name": "retain",
               "ap1ID": "id-812",
               "ap2ID": "id-818"
+            },
+            {
+              "ap2Name": "shape",
+              "ap1ID": "id-818",
+              "ap2ID": "id-838"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-838",
+              "ap2ID": "id-867"
             }
           ],
           "fileTypeVersion": 1
