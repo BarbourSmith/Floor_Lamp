@@ -1032,8 +1032,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.65,
-              "y": 0.5,
+              "x": 0.4901,
+              "y": 0.4761,
               "uniqueID": "id-330",
               "ioValues": [
                 {
@@ -1064,8 +1064,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.82,
-              "y": 0.5,
+              "x": 0.6878,
+              "y": 0.2423,
               "uniqueID": "id-338",
               "ioValues": [
                 {
@@ -1086,6 +1086,1067 @@
                   "currentEquation": "wire_diameter / 2"
                 }
               ]
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.5417,
+              "y": 0.9324,
+              "uniqueID": "id-727",
+              "name": "Flat_End_Arc",
+              "ioValues": [
+                {
+                  "name": "Angle",
+                  "ioValue": 10,
+                  "currentEquation": "10"
+                },
+                {
+                  "name": "ID",
+                  "ioValue": 383,
+                  "currentEquation": "383"
+                },
+                {
+                  "name": "OD",
+                  "ioValue": 398,
+                  "currentEquation": "398"
+                },
+                {
+                  "name": "Thickness",
+                  "ioValue": 7
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-698",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.1538,
+                  "uniqueID": "id-699",
+                  "name": "Angle",
+                  "options": []
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.2462,
+                  "uniqueID": "id-700",
+                  "name": "ID",
+                  "options": []
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.3385,
+                  "uniqueID": "id-701",
+                  "name": "OD",
+                  "options": []
+                },
+                {
+                  "atomType": "Rotate",
+                  "x": 0.3307,
+                  "y": 0.5432,
+                  "uniqueID": "id-702",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "x-axis degrees",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "y-axis degrees",
+                      "ioValue": 0
+                    },
+                    {
+                      "name": "z-axis degrees",
+                      "ioValue": -95
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Equation",
+                  "x": 0.1356,
+                  "y": 0.6769,
+                  "uniqueID": "id-703",
+                  "name": "A/-2-90",
+                  "ioValues": [
+                    {
+                      "name": "A",
+                      "ioValue": 10
+                    }
+                  ],
+                  "currentEquation": "A/-2-90"
+                },
+                {
+                  "atomType": "Intersection",
+                  "x": 0.5271,
+                  "y": 0.2089,
+                  "uniqueID": "id-704",
+                  "ioValues": [
+                    {
+                      "name": "geometry1",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "geometry2",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Extrude",
+                  "x": 0.7163,
+                  "y": 0.571,
+                  "uniqueID": "id-705",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "height",
+                      "ioValue": 7
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.4308,
+                  "uniqueID": "id-706",
+                  "name": "Thickness",
+                  "options": []
+                },
+                {
+                  "atomType": "GitHubMolecule",
+                  "x": 0.2765,
+                  "y": 0.2479,
+                  "uniqueID": "id-707",
+                  "name": "Concentric_Circles",
+                  "ioValues": [
+                    {
+                      "name": "OD",
+                      "ioValue": 398
+                    },
+                    {
+                      "name": "ID",
+                      "ioValue": 383
+                    }
+                  ],
+                  "topLevel": false,
+                  "allAtoms": [
+                    {
+                      "atomType": "Output",
+                      "x": 0.98,
+                      "y": 0.5,
+                      "uniqueID": "id-708",
+                      "ioValues": [
+                        {
+                          "name": "number or geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.1538,
+                      "uniqueID": "id-709",
+                      "name": "OD",
+                      "type": "number",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.2462,
+                      "uniqueID": "id-710",
+                      "name": "ID",
+                      "type": "number",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Circle",
+                      "x": 0.4606,
+                      "y": 0.4257,
+                      "uniqueID": "id-711",
+                      "ioValues": [
+                        {
+                          "name": "diameter",
+                          "ioValue": 398
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Circle",
+                      "x": 0.4453,
+                      "y": 0.7264,
+                      "uniqueID": "id-712",
+                      "ioValues": [
+                        {
+                          "name": "diameter",
+                          "ioValue": 383
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Difference",
+                      "x": 0.6616,
+                      "y": 0.5507,
+                      "uniqueID": "id-713",
+                      "ioValues": [
+                        {
+                          "name": "retain",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "remove",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    }
+                  ],
+                  "allConnectors": [
+                    {
+                      "ap2Name": "diameter",
+                      "ap1ID": "id-709",
+                      "ap2ID": "id-711"
+                    },
+                    {
+                      "ap2Name": "diameter",
+                      "ap1ID": "id-710",
+                      "ap2ID": "id-712"
+                    },
+                    {
+                      "ap2Name": "retain",
+                      "ap1ID": "id-711",
+                      "ap2ID": "id-713"
+                    },
+                    {
+                      "ap2Name": "remove",
+                      "ap1ID": "id-712",
+                      "ap2ID": "id-713"
+                    },
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-713",
+                      "ap2ID": "id-708"
+                    }
+                  ],
+                  "parentRepo": {
+                    "lastFoundGit": "2026-03-27T18:23:39.361Z",
+                    "privateRepo": false,
+                    "repoName": "Concentric_Circles",
+                    "dateCreated": "2025-11-08T04:08:14Z",
+                    "likes": 0,
+                    "readMe": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/README.md?sanitize=true",
+                    "yyyy": 2025,
+                    "topMoleculeID": "id-1170",
+                    "githubMoleculesUsed": [],
+                    "html_url": "https://github.com/BarbourSmith/Concentric_Circles",
+                    "topics": [],
+                    "parentRepo": null,
+                    "forks": 0,
+                    "dateModified": "739563",
+                    "ranking": 8.7,
+                    "searchField": "concentric_circles barboursmith creates two concentric circles. the result is 2d ",
+                    "owner": "BarbourSmith",
+                    "description": "Creates two concentric circles. The result is 2D",
+                    "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.abundance?sanitize=true",
+                    "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.svg?sanitize=true",
+                    "isLocal": false
+                  },
+                  "unitsKey": "Unitless",
+                  "fileTypeVersion": 1
+                },
+                {
+                  "atomType": "GitHubMolecule",
+                  "x": 0.2044,
+                  "y": 0.415,
+                  "uniqueID": "id-714",
+                  "name": "SimpleArc",
+                  "ioValues": [
+                    {
+                      "name": "diameter",
+                      "ioValue": 398
+                    },
+                    {
+                      "name": "degrees",
+                      "ioValue": 10
+                    }
+                  ],
+                  "topLevel": false,
+                  "allAtoms": [
+                    {
+                      "atomType": "Output",
+                      "x": 0.98,
+                      "y": 0.5,
+                      "uniqueID": "id-715",
+                      "ioValues": [
+                        {
+                          "name": "number or geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.1538,
+                      "uniqueID": "id-716",
+                      "name": "diameter",
+                      "type": "number",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.2462,
+                      "uniqueID": "id-717",
+                      "name": "degrees",
+                      "type": "number",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Circle",
+                      "x": 0.2376,
+                      "y": 0.2351,
+                      "uniqueID": "id-718",
+                      "ioValues": [
+                        {
+                          "name": "diameter",
+                          "ioValue": 398
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Rectangle",
+                      "x": 0.2969,
+                      "y": 0.4762,
+                      "uniqueID": "id-719",
+                      "ioValues": [
+                        {
+                          "name": "x length",
+                          "ioValue": 398
+                        },
+                        {
+                          "name": "y length",
+                          "ioValue": 398
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Equation",
+                      "x": 0.2949,
+                      "y": 0.6071,
+                      "uniqueID": "id-720",
+                      "name": "x / 2",
+                      "ioValues": [
+                        {
+                          "name": "x",
+                          "ioValue": 398
+                        }
+                      ],
+                      "currentEquation": "x / 2"
+                    },
+                    {
+                      "atomType": "Move",
+                      "x": 0.4238,
+                      "y": 0.4673,
+                      "uniqueID": "id-721",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "xDist",
+                          "ioValue": 199
+                        },
+                        {
+                          "name": "yDist",
+                          "ioValue": 0
+                        },
+                        {
+                          "name": "zDist",
+                          "ioValue": 0
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Move",
+                      "x": 0.4629,
+                      "y": 0.7143,
+                      "uniqueID": "id-722",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "xDist",
+                          "ioValue": -199
+                        },
+                        {
+                          "name": "yDist",
+                          "ioValue": 0
+                        },
+                        {
+                          "name": "zDist",
+                          "ioValue": 0
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Equation",
+                      "x": 0.3678,
+                      "y": 0.7202,
+                      "uniqueID": "id-723",
+                      "name": "-1 * x",
+                      "ioValues": [
+                        {
+                          "name": "x",
+                          "ioValue": 199
+                        }
+                      ],
+                      "currentEquation": "-1 * x"
+                    },
+                    {
+                      "atomType": "Rotate",
+                      "x": 0.5788,
+                      "y": 0.5387,
+                      "uniqueID": "id-724",
+                      "ioValues": [
+                        {
+                          "name": "geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "x-axis degrees",
+                          "ioValue": 0
+                        },
+                        {
+                          "name": "y-axis degrees",
+                          "ioValue": 0
+                        },
+                        {
+                          "name": "z-axis degrees",
+                          "ioValue": 10
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Difference",
+                      "x": 0.7025,
+                      "y": 0.3482,
+                      "uniqueID": "id-725",
+                      "ioValues": [
+                        {
+                          "name": "retain",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "remove",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Difference",
+                      "x": 0.7806,
+                      "y": 0.5923,
+                      "uniqueID": "id-726",
+                      "ioValues": [
+                        {
+                          "name": "retain",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "remove",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    }
+                  ],
+                  "allConnectors": [
+                    {
+                      "ap2Name": "diameter",
+                      "ap1ID": "id-716",
+                      "ap2ID": "id-718"
+                    },
+                    {
+                      "ap2Name": "x length",
+                      "ap1ID": "id-716",
+                      "ap2ID": "id-719"
+                    },
+                    {
+                      "ap2Name": "y length",
+                      "ap1ID": "id-716",
+                      "ap2ID": "id-719"
+                    },
+                    {
+                      "ap2Name": "x",
+                      "ap1ID": "id-716",
+                      "ap2ID": "id-720"
+                    },
+                    {
+                      "ap2Name": "z-axis degrees",
+                      "ap1ID": "id-717",
+                      "ap2ID": "id-724"
+                    },
+                    {
+                      "ap2Name": "retain",
+                      "ap1ID": "id-718",
+                      "ap2ID": "id-725"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-719",
+                      "ap2ID": "id-721"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-719",
+                      "ap2ID": "id-722"
+                    },
+                    {
+                      "ap2Name": "xDist",
+                      "ap1ID": "id-720",
+                      "ap2ID": "id-721"
+                    },
+                    {
+                      "ap2Name": "x",
+                      "ap1ID": "id-720",
+                      "ap2ID": "id-723"
+                    },
+                    {
+                      "ap2Name": "remove",
+                      "ap1ID": "id-721",
+                      "ap2ID": "id-725"
+                    },
+                    {
+                      "ap2Name": "geometry",
+                      "ap1ID": "id-722",
+                      "ap2ID": "id-724"
+                    },
+                    {
+                      "ap2Name": "xDist",
+                      "ap1ID": "id-723",
+                      "ap2ID": "id-722"
+                    },
+                    {
+                      "ap2Name": "remove",
+                      "ap1ID": "id-724",
+                      "ap2ID": "id-726"
+                    },
+                    {
+                      "ap2Name": "retain",
+                      "ap1ID": "id-725",
+                      "ap2ID": "id-726"
+                    },
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-726",
+                      "ap2ID": "id-715"
+                    }
+                  ],
+                  "parentRepo": {
+                    "lastFoundGit": "2026-03-27T18:23:39.361Z",
+                    "privateRepo": false,
+                    "repoName": "SimpleArc",
+                    "dateCreated": "2025-12-06T04:41:04Z",
+                    "likes": 0,
+                    "readMe": "https://raw.githubusercontent.com/tristan-huber/SimpleArc/master/README.md?sanitize=true",
+                    "yyyy": 2025,
+                    "topMoleculeID": "id-8035",
+                    "githubMoleculesUsed": [],
+                    "html_url": "https://github.com/tristan-huber/SimpleArc",
+                    "topics": [
+                      "abundance-tool"
+                    ],
+                    "parentRepo": null,
+                    "forks": 0,
+                    "dateModified": "739591",
+                    "ranking": 0.3,
+                    "searchField": "simplearc tristan-huber simple arc shape with outer radius, degrees abundance-tool",
+                    "owner": "tristan-huber",
+                    "description": "simple arc shape with outer radius, degrees",
+                    "contentURL": "https://raw.githubusercontent.com/tristan-huber/SimpleArc/master/project.abundance?sanitize=true",
+                    "svgURL": "https://raw.githubusercontent.com/tristan-huber/SimpleArc/master/project.svg?sanitize=true",
+                    "isLocal": false
+                  },
+                  "unitsKey": "Inches",
+                  "fileTypeVersion": 1
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "A",
+                  "ap1ID": "id-699",
+                  "ap2ID": "id-703"
+                },
+                {
+                  "ap2Name": "degrees",
+                  "ap1ID": "id-699",
+                  "ap2ID": "id-714"
+                },
+                {
+                  "ap2Name": "ID",
+                  "ap1ID": "id-700",
+                  "ap2ID": "id-707"
+                },
+                {
+                  "ap2Name": "OD",
+                  "ap1ID": "id-701",
+                  "ap2ID": "id-707"
+                },
+                {
+                  "ap2Name": "diameter",
+                  "ap1ID": "id-701",
+                  "ap2ID": "id-714"
+                },
+                {
+                  "ap2Name": "geometry2",
+                  "ap1ID": "id-702",
+                  "ap2ID": "id-704"
+                },
+                {
+                  "ap2Name": "z-axis degrees",
+                  "ap1ID": "id-703",
+                  "ap2ID": "id-702"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-704",
+                  "ap2ID": "id-705"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-705",
+                  "ap2ID": "id-698"
+                },
+                {
+                  "ap2Name": "height",
+                  "ap1ID": "id-706",
+                  "ap2ID": "id-705"
+                },
+                {
+                  "ap2Name": "geometry1",
+                  "ap1ID": "id-707",
+                  "ap2ID": "id-704"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-714",
+                  "ap2ID": "id-702"
+                }
+              ],
+              "parentRepo": {
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Flat_End_Arc/master/project.abundance?sanitize=true",
+                "dateCreated": "2026-07-16T09:29:12Z",
+                "dateModified": "2026-07-16T09:31:06Z",
+                "description": "Creates an arc with ends which are flat along the radius of the arc",
+                "forks": 0,
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Flat_End_Arc",
+                "lastFoundGit": "2026-11-16T18:23:39.115Z",
+                "likes": 0,
+                "owner": "BarbourSmith",
+                "pngURL": "https://raw.githubusercontent.com/BarbourSmith/Flat_End_Arc/master/project.png?sanitize=true",
+                "privateRepo": false,
+                "pullRequests": [],
+                "ranking": 3,
+                "readme": "https://raw.githubusercontent.com/BarbourSmith/Flat_End_Arc/master/README.md?sanitize=true",
+                "searchField": "flat_end_arc barboursmith creates an arc with ends which are flat along the radius of the arc ",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Flat_End_Arc/master/project.svg?sanitize=true",
+                "topMoleculeID": "",
+                "topics": [],
+                "userRanking": 0,
+                "userSetAsThumbnail": false,
+                "yyyy": 2026,
+                "repoName": "Flat_End_Arc",
+                "isLocal": false
+              },
+              "unitsKey": "Unitless",
+              "fileTypeVersion": 1,
+              "scaleToProjectUnits": true,
+              "lastReloadedFromGithubAt": 1794871073912
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5946,
+              "y": 0.6085,
+              "uniqueID": "id-806",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": -1
+                }
+              ]
+            },
+            {
+              "atomType": "Rotate",
+              "x": 0.7037,
+              "y": 0.8394,
+              "uniqueID": "id-812",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 13
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.7943,
+              "y": 0.569,
+              "uniqueID": "id-818",
+              "ioValues": [
+                {
+                  "name": "retain",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "remove",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.9398,
+              "y": 0.8676,
+              "uniqueID": "id-838",
+              "name": "selected.Fillet",
+              "ioValues": [
+                {
+                  "name": "shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "radius",
+                  "ioValue": 1
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 1,
+                  "y": 0.5,
+                  "uniqueID": "id-827",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.3,
+                  "y": 0.6,
+                  "uniqueID": "id-828",
+                  "ioValues": [
+                    {
+                      "name": "toFillet",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "radius",
+                      "ioValue": 1
+                    }
+                  ],
+                  "interpreterVersion": 1,
+                  "code": "function run(toFillet: Assembly, radius: number) {\n  return toFillet.onLeafs((leaf) => {\n    if (leaf.geometry instanceof replicad.Drawing || !replicad.isShape3D(leaf.geometry)) {\n      return leaf;\n    }\n    if (leaf.selection?.part) {\n      leaf.geometry = leaf.geometry.fillet(radius)\n      return leaf;\n    }\n    // else apply only to filtered faces and edges\n    let edgesToFillet: replicad.Edge[] = []\n    if (leaf.selection?.faces) {\n      leaf.selection.faces.forEach((faceIndex) => {\n        edgesToFillet.push(...leaf.geometry.faces[faceIndex].edges)\n      });\n    }\n    console.log(edgesToFillet)\n    console.log(\"intermediate\")\n    console.log(leaf.selection)\n    if (leaf.selection?.edges) {\n      edgesToFillet.push(...leaf.selection.edges.map((index) => leaf.geometry.edges[index]))\n    }\n    if (edgesToFillet.length == 0) {\n      return leaf;\n    }\n    edgesToFillet = edgesToFillet.filter((e) => e != null)\n    if (edgesToFillet.length == 0) {\n      return leaf.geometry\n    }\n    console.log(edgesToFillet)\n    leaf.geometry = leaf.geometry.fillet(radius, (e) => { return e.inList(edgesToFillet.map((e) => e.clone())) })\n    return leaf;\n  })\n}",
+                  "compiledCode": "\"use strict\";\nfunction run(toFillet, radius) {\n    return toFillet.onLeafs((leaf) => {\n        if (leaf.geometry instanceof replicad.Drawing || !replicad.isShape3D(leaf.geometry)) {\n            return leaf;\n        }\n        if (leaf.selection?.part) {\n            leaf.geometry = leaf.geometry.fillet(radius);\n            return leaf;\n        }\n        // else apply only to filtered faces and edges\n        let edgesToFillet = [];\n        if (leaf.selection?.faces) {\n            leaf.selection.faces.forEach((faceIndex) => {\n                edgesToFillet.push(...leaf.geometry.faces[faceIndex].edges);\n            });\n        }\n        console.log(edgesToFillet);\n        console.log(\"intermediate\");\n        console.log(leaf.selection);\n        if (leaf.selection?.edges) {\n            edgesToFillet.push(...leaf.selection.edges.map((index) => leaf.geometry.edges[index]));\n        }\n        if (edgesToFillet.length == 0) {\n            return leaf;\n        }\n        edgesToFillet = edgesToFillet.filter((e) => e != null);\n        if (edgesToFillet.length == 0) {\n            return leaf.geometry;\n        }\n        console.log(edgesToFillet);\n        leaf.geometry = leaf.geometry.fillet(radius, (e) => { return e.inList(edgesToFillet.map((e) => e.clone())); });\n        return leaf;\n    });\n}\n"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.1538,
+                  "uniqueID": "id-829",
+                  "name": "shape",
+                  "type": "edgeselect",
+                  "options": [],
+                  "selectedEdgeData": {}
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.2462,
+                  "uniqueID": "id-830",
+                  "name": "radius",
+                  "options": []
+                },
+                {
+                  "atomType": "GitHubMolecule",
+                  "x": 0.5,
+                  "y": 0.5,
+                  "uniqueID": "id-831",
+                  "name": "select.Clear",
+                  "ioValues": [
+                    {
+                      "name": "selection",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "clearEdges",
+                      "ioValue": 10
+                    },
+                    {
+                      "name": "clearFaces",
+                      "ioValue": false
+                    },
+                    {
+                      "name": "clearParts",
+                      "ioValue": false
+                    }
+                  ],
+                  "topLevel": false,
+                  "allAtoms": [
+                    {
+                      "atomType": "Output",
+                      "x": 1,
+                      "y": 0.5,
+                      "uniqueID": "id-832",
+                      "ioValues": [
+                        {
+                          "name": "number or geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Code",
+                      "x": 0.4,
+                      "y": 0.7,
+                      "uniqueID": "id-833",
+                      "ioValues": [
+                        {
+                          "name": "selection",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        },
+                        {
+                          "name": "clearFaces",
+                          "ioValue": false
+                        },
+                        {
+                          "name": "clearEdges",
+                          "ioValue": 10
+                        },
+                        {
+                          "name": "clearParts",
+                          "ioValue": false
+                        }
+                      ],
+                      "interpreterVersion": 1,
+                      "code": "function run(selection: Assembly, clearFaces: boolean, clearEdges: boolean, clearParts: boolean) {\n  return selection.onLeafs((leaf) => {\n    if (leaf.selection) {\n      if (clearFaces) leaf.selection.faces = []\n      if (clearEdges) leaf.selection.edges = []\n      if (clearParts) leaf.selection.part = false;\n    }\n    return leaf;\n  })?.skipDisjointPostprocess()\n}",
+                      "compiledCode": "\"use strict\";\nfunction run(selection, clearFaces, clearEdges, clearParts) {\n    return selection.onLeafs((leaf) => {\n        if (leaf.selection) {\n            if (clearFaces)\n                leaf.selection.faces = [];\n            if (clearEdges)\n                leaf.selection.edges = [];\n            if (clearParts)\n                leaf.selection.part = false;\n        }\n        return leaf;\n    })?.skipDisjointPostprocess();\n}\n"
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.1538,
+                      "uniqueID": "id-834",
+                      "name": "selection",
+                      "type": "geometry",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.2462,
+                      "uniqueID": "id-835",
+                      "name": "clearEdges",
+                      "type": "boolean",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.3385,
+                      "uniqueID": "id-836",
+                      "name": "clearFaces",
+                      "type": "boolean",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.4308,
+                      "uniqueID": "id-837",
+                      "name": "clearParts",
+                      "type": "boolean",
+                      "options": []
+                    }
+                  ],
+                  "allConnectors": [
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-833",
+                      "ap2ID": "id-832"
+                    },
+                    {
+                      "ap2Name": "selection",
+                      "ap1ID": "id-834",
+                      "ap2ID": "id-833"
+                    },
+                    {
+                      "ap2Name": "clearEdges",
+                      "ap1ID": "id-835",
+                      "ap2ID": "id-833"
+                    },
+                    {
+                      "ap2Name": "clearFaces",
+                      "ap1ID": "id-836",
+                      "ap2ID": "id-833"
+                    },
+                    {
+                      "ap2Name": "clearParts",
+                      "ap1ID": "id-837",
+                      "ap2ID": "id-833"
+                    }
+                  ],
+                  "parentRepo": {
+                    "lastFoundGit": "2026-10-12T18:23:38.928Z",
+                    "privateRepo": false,
+                    "repoName": "select.Clear",
+                    "dateCreated": "2026-08-20T19:02:54Z",
+                    "likes": 0,
+                    "pngURL": "https://raw.githubusercontent.com/tristan-huber/select.Clear/master/project.png?sanitize=true",
+                    "readme": "https://raw.githubusercontent.com/tristan-huber/select.Clear/master/README.md?sanitize=true",
+                    "yyyy": 2026,
+                    "topMoleculeID": "",
+                    "userRanking": 0,
+                    "userSetAsThumbnail": false,
+                    "githubMoleculesUsed": [],
+                    "html_url": "https://github.com/tristan-huber/select.Clear",
+                    "topics": [
+                      "abundance-tool"
+                    ],
+                    "pullRequests": [],
+                    "forks": 0,
+                    "dateModified": "2026-09-03T20:46:51Z",
+                    "ranking": 2,
+                    "searchField": "select.clear tristan-huber clears selections on the input assembly. booleans control whether you clear edge selection, clear face selection, or clear part selection, or all of the above. abundance-tool",
+                    "owner": "tristan-huber",
+                    "description": "clears selections on the input assembly. Booleans control whether you clear edge selection, clear face selection, or clear part selection, or all of the above.",
+                    "contentURL": "https://raw.githubusercontent.com/tristan-huber/select.Clear/master/project.abundance?sanitize=true",
+                    "svgURL": "https://raw.githubusercontent.com/tristan-huber/select.Clear/master/project.svg?sanitize=true",
+                    "isLocal": false
+                  },
+                  "unitsKey": "Unitless",
+                  "fileTypeVersion": 1,
+                  "lastReloadedFromGithubAt": 1791834204755
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "selection",
+                  "ap1ID": "id-828",
+                  "ap2ID": "id-831"
+                },
+                {
+                  "ap2Name": "toFillet",
+                  "ap1ID": "id-829",
+                  "ap2ID": "id-828"
+                },
+                {
+                  "ap2Name": "radius",
+                  "ap1ID": "id-830",
+                  "ap2ID": "id-828"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-831",
+                  "ap2ID": "id-827"
+                }
+              ],
+              "parentRepo": {
+                "contentURL": "https://raw.githubusercontent.com/tristan-huber/selected.Fillet/master/project.abundance?sanitize=true",
+                "dateCreated": "2026-07-21T21:29:20Z",
+                "dateModified": "739901",
+                "description": "Fillet the only the selected edges of an assembly. You can also input face or sub-assembly selections, edges will be filleted if they meet any of the selection criteria, eg on a selected subassembly, on a selected face. Default fillets all edges.",
+                "forks": 0,
+                "githubMoleculesUsed": [
+                  {
+                    "owner": "tristan-huber",
+                    "repoName": "select.Clear"
+                  }
+                ],
+                "html_url": "https://github.com/tristan-huber/selected.Fillet",
+                "lastFoundGit": "2026-11-16T18:23:39.115Z",
+                "likes": 0,
+                "owner": "tristan-huber",
+                "pngURL": "https://raw.githubusercontent.com/tristan-huber/selected.Fillet/master/project.png?sanitize=true",
+                "privateRepo": false,
+                "projectInputs": [
+                  {
+                    "name": "shape",
+                    "type": "edgeselect"
+                  },
+                  {
+                    "name": "radius",
+                    "type": "number"
+                  }
+                ],
+                "pullRequests": [],
+                "ranking": 3,
+                "readme": "https://raw.githubusercontent.com/tristan-huber/selected.Fillet/master/README.md?sanitize=true",
+                "searchField": "selected.fillet tristan-huber fillet the only the selected edges of an assembly. you can also input face or sub-assembly selections, edges will be filleted if they meet any of the selection criteria, eg on a selected subassembly, on a selected face. default fillets all edges. abundance-tool",
+                "svgURL": "https://raw.githubusercontent.com/tristan-huber/selected.Fillet/master/project.svg?sanitize=true",
+                "topMoleculeID": "",
+                "topics": [
+                  "abundance-tool"
+                ],
+                "userRanking": 0,
+                "userSetAsThumbnail": false,
+                "yyyy": 2026,
+                "repoName": "selected.Fillet",
+                "isLocal": false
+              },
+              "unitsKey": "Unitless",
+              "fileTypeVersion": 1,
+              "scaleToProjectUnits": true,
+              "lastReloadedFromGithubAt": 1794871205762
             }
           ],
           "allConnectors": [
@@ -1128,6 +2189,26 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-338",
               "ap2ID": "id-140"
+            },
+            {
+              "ap2Name": "remove",
+              "ap1ID": "id-338",
+              "ap2ID": "id-818"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-727",
+              "ap2ID": "id-806"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-806",
+              "ap2ID": "id-812"
+            },
+            {
+              "ap2Name": "retain",
+              "ap1ID": "id-812",
+              "ap2ID": "id-818"
             }
           ],
           "fileTypeVersion": 1
