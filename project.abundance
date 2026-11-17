@@ -55,7 +55,7 @@
             },
             {
               "name": "wire_diameter",
-              "ioValue": 4
+              "ioValue": 4.25
             },
             {
               "name": "spider_drop",
@@ -85,12 +85,12 @@
               "ioValues": [
                 {
                   "name": "ring_diameter",
-                  "ioValue": 393.8,
+                  "ioValue": 393.55,
                   "currentEquation": "shade_diameter - 1.2 - wire_diameter"
                 },
                 {
                   "name": "wire_diameter",
-                  "ioValue": 4,
+                  "ioValue": 4.25,
                   "currentEquation": "wire_diameter"
                 }
               ],
@@ -134,11 +134,11 @@
                   "ioValues": [
                     {
                       "name": "ringDiameter",
-                      "ioValue": 393.8
+                      "ioValue": 393.55
                     },
                     {
                       "name": "wireDiameter",
-                      "ioValue": 4
+                      "ioValue": 4.25
                     }
                   ],
                   "interpreterVersion": 1,
@@ -174,7 +174,7 @@
               "ioValues": [
                 {
                   "name": "ring_diameter",
-                  "ioValue": 393.8,
+                  "ioValue": 393.55,
                   "currentEquation": "shade_diameter - 1.2 - wire_diameter"
                 },
                 {
@@ -224,7 +224,7 @@
                   "ioValues": [
                     {
                       "name": "ring_diameter",
-                      "ioValue": 393.8
+                      "ioValue": 393.55
                     },
                     {
                       "name": "drop",
@@ -271,7 +271,7 @@
                       "ioValues": [
                         {
                           "name": "diameter",
-                          "ioValue": 4
+                          "ioValue": 4.25
                         }
                       ]
                     },
@@ -287,7 +287,7 @@
                         },
                         {
                           "name": "height",
-                          "ioValue": 183.31723868747315,
+                          "ioValue": 183.19525273598111,
                           "currentEquation": "sqrt((ring_diameter/2 - 18)^2 + drop^2)"
                         }
                       ]
@@ -308,7 +308,7 @@
                         },
                         {
                           "name": "y-axis degrees",
-                          "ioValue": 102.60338947575387,
+                          "ioValue": 102.6119199881069,
                           "currentEquation": "90 + atan(drop / (ring_diameter/2 - 18)) * 180 / pi"
                         },
                         {
@@ -731,7 +731,7 @@
               "ioValues": [
                 {
                   "name": "ring_diameter",
-                  "ioValue": 393.8,
+                  "ioValue": 393.55,
                   "currentEquation": "shade_diameter - 1.2 - wire_diameter"
                 }
               ],
@@ -802,7 +802,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 193.4,
+                      "ioValue": 193.275,
                       "currentEquation": "ring_diameter / 2 - 3.5"
                     },
                     {
@@ -811,7 +811,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": -2
+                      "ioValue": -2.125
                     }
                   ]
                 },
@@ -909,7 +909,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 227,
+                  "ioValue": 226.75,
                   "currentEquation": "shade_height - wire_diameter"
                 }
               ]
@@ -1082,7 +1082,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 2,
+                  "ioValue": 2.125,
                   "currentEquation": "wire_diameter / 2"
                 }
               ]
